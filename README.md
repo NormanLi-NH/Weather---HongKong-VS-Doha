@@ -24,7 +24,7 @@ Key steps in our methodology include:
 
 - Graph: Temperature vs Humdidity, Temperature vs Feels Temperature, Heatmap
 Hong Kong:
-![HK](graphs/HK1.png)
+<img src="graphs/HK1.png">!
 ![HK](graphs/HK2.png)
 ![HK](graphs/HK3.png)
 
