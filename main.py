@@ -43,7 +43,7 @@ def doha_plot():
     m1, b1 = np.polyfit(df_doha['temperature'], df_doha['humidity'], 1)
     plt.plot(df_doha['temperature'], m1 * df_doha['temperature'] + b1)
 
-    plt.title('Doha Weather')
+    plt.title('Doha Temperature vs Humdidity')
     plt.xlabel('Temperature')
     plt.ylabel('Humidity')
     plt.show()
