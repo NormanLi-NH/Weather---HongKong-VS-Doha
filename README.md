@@ -10,12 +10,6 @@ Humidity Levels:
 
 Hong Kong typically experiences high humidity, which can significantly influence the "feels like" temperature. We will analyze how humidity in both cities correlates with temperature readings.
 
-Urban Heat Effects: 
-The urban landscape of Hong Kong, characterized by dense buildings and limited greenery, may contribute to heightened temperatures compared to Doha. We will explore how urbanization impacts local weather conditions.
-
-Seasonal Variations: 
-Seasonal changes can affect weather patterns differently in each city. By comparing seasonal data, we aim to identify trends and anomalies in "feels like" temperatures.
-
 
 # Methodology
 
@@ -26,10 +20,24 @@ Key steps in our methodology include:
 - Data Collection: Using weather APIs to gather relevant data over an extended period.
 
 - Data Storage: Saving the collected data in an SQLite database to facilitate easy querying and analysis.
+![SQLite Graph](graphs/SQLite.png)
 
 - Graph: Temperature vs Humdidity, Temperature vs Feels Temperature, Heatmap
+Hong Kong:
+![HK](graphs/HK1.png)
+![HK](graphs/HK2.png)
+![HK](graphs/HK3.png)
+
+Doha:
+![DOHA](graphs/DOHA1.png)
+![DOHA](graphs/DOHA2.png)
+![DOHA](graphs/DOHA3.png)
+
+
 
 - Interface design: Button with choose on Hong Kong or Doha to show further results.
+![GUI Graph](graphs/GUI.png)
+
 
 - Data Analysis: Performing statistical analyses to identify the avgerage humidity and weather type. Analysis trends and correlations between the weather variables in Hong Kong and Doha, to result the regression eqution of feels_temperature.
 
