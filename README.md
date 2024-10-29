@@ -20,23 +20,31 @@ Key steps in our methodology include:
 - Data Collection: Using weather APIs to gather relevant data over an extended period.
 
 - Data Storage: Saving the collected data in an SQLite database to facilitate easy querying and analysis.
-![SQLite Graph](graphs/SQLite.png)
+<img src="graphs/SQLite.png" width="520">
+
 
 - Graph: Temperature vs Humdidity, Temperature vs Feels Temperature, Heatmap
+
+
 Hong Kong:
-<img src="graphs/HK1.png">!
-![HK](graphs/HK2.png)
-![HK](graphs/HK3.png)
+
+<img src="graphs/HK1.png" width="520">
+
+<img src="graphs/HK1.png" width="520">
+
+<img src="graphs/HK1.png" width="520">
+
 
 Doha:
-![DOHA](graphs/DOHA1.png)
-![DOHA](graphs/DOHA2.png)
-![DOHA](graphs/DOHA3.png)
+
+<img src="graphs/DOHA1.png" width="520">
+<img src="graphs/DOHA2.png" width="520">
+<img src="graphs/DOHA3.png" width="520">
 
 
 
 - Interface design: Button with choose on Hong Kong or Doha to show further results.
-![GUI Graph](graphs/GUI.png)
+<img src="graphs/GUI.png" width="520">
 
 
 - Data Analysis: Performing statistical analyses to identify the avgerage humidity and weather type. Analysis trends and correlations between the weather variables in Hong Kong and Doha, to result the regression eqution of feels_temperature.
